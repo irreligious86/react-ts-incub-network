@@ -1,0 +1,5 @@
+.messenger {
+    /*background-color: rgba(190, 220, 139, 0.5);*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}

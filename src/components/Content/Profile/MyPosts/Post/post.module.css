@@ -1,0 +1,50 @@
+.post {
+    margin: 18px;
+    background-color: rgba(241, 230, 192, 0.2);
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px -5px rgba(58, 57, 57, 0.77);
+}
+
+.post-title {
+    margin: 0;
+    background-color: rgba(97, 222, 46, 0.2);
+}
+
+.post-body {
+    padding: 5px;
+    background-color: rgba(131, 236, 227, 0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-user {
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.message {
+
+}
+
+.btn-block {
+    /*margin: 5px;*/
+    /*padding: 5px;*/
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn {
+    line-height: 50%;
+    /*margin: 5px;*/
+    /*padding: 0 10px;*/
+}

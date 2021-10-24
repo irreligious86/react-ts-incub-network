@@ -1,0 +1,12 @@
+.my-posts {
+    background-color: rgba(148, 225, 146, 0.36);
+}
+
+.posts-controls {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 12px;
+}

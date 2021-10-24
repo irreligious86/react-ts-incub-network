@@ -1,0 +1,29 @@
+.messages {
+    /*background-color: rgba(190, 220, 139, 0.5);*/
+}
+
+.messages-controls {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.message {
+    border: 1px solid #2cd045;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(107, 245, 245, 0.2);
+}
+
+.message:hover {
+    background-color: rgba(116, 245, 107, 0.51);
+}
+
+textarea, button, .message {
+    box-shadow: 8px 5px 50px -10px rgba(0, 0, 0, 0.89);
+}
+
