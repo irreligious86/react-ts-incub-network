@@ -1,31 +1,23 @@
 import React from "react";
-import './App.css';
-// import Header from "./components/Header/header";
-// import Sidebar from "./components/Sidebar/sidebar";
-// import Content from "./components/Content/content";
-// import Footer from "./components/Footer/footer";
+import classes from './App.module.css';
 import {BrowserRouter} from "react-router-dom";
+import Header from "./components/Header/header";
+import Sidebar from "./components/Sidebar/sidebar";
+import Content from "./components/Content/content";
+import Footer from "./components/Footer/footer";
 
-type AppPopsType = {
+type AppPropsType = {
 
 }
 
-const App: React.FC<AppPopsType> = props => {
+const App: React.FC<AppPropsType> = props => {
   return (
 <BrowserRouter>
-  <div className="app-wrapper">
-    {/*<Header/>*/}
-    {/*<Sidebar/>*/}
-    {/*<Content*/}
-    {/*    dispatch={props.dispatch}*/}
-    {/*    state={props.state}*/}
-    {/*    profilePage={props.state.profile.posts}*/}
-    {/*    newPostText={props.state.newPostText}*/}
-    {/*    store={props.store}*/}
-    {/*    // addPost={props.addPost}*/}
-    {/*    // updateNewPostText={props.updateNewPostText}*/}
-    {/*/>*/}
-    {/*<Footer/>*/}
+  <div className={classes['App-wrapper']}>
+    <Header/>
+    <Sidebar/>
+    <Content/>
+    <Footer/>
   </div>
 </BrowserRouter>
   );
