@@ -1,6 +1,23 @@
-.App {
+.App-wrapper {
+  display: grid;
+  grid-template-columns: minmax(150px, 20vw) minmax(350px, 80vw);
+  grid-template-rows: minmax(100px, auto) minmax(500px, auto) minmax(250px, auto);
+  grid-template-areas: "header header"
+  "sidebar content"
+  "footer footer";
   text-align: center;
+  box-sizing: border-box;
 }
+
+.App-wrapper>div {
+  box-sizing: border-box;
+  border: 1px solid black;
+  justify-items: center;
+  justify-content: stretch;
+  align-content: stretch;
+
+}
+
 
 .App-logo {
   height: 40vmin;
